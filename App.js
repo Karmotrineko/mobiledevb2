@@ -12,7 +12,7 @@ export default function App() {
       .then((data) => {
         setPeople(data.results);
       })
-      .catch((error) => console.error('Error fetching data:', error));
+      .catch((error) => console.error('Erro de Pegar os dados:', error));
   }, []);
 
   return (
